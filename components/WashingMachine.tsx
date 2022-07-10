@@ -14,8 +14,8 @@ const WashingMachine = () => {
                                 <li >Switch on the washing machine. You can find the switch on the right corner of the kitchen sink, as shown below</li>
                                 <li className="w-[200px] list-none"><img src="washingmachineswitch.jpg" alt="washing machine switch" /></li>
                                 <li >Then proceed to the washing machine, open the door, load your laundry and washing pods (available below the kitchen sink) and close the door</li>
-                                <li >Select washing option "8 (40°C)" or "9 (30°C)" for your washing requirement</li>
-                                <li>Press "Start/Pause" button to start the washing machine</li>
+                                <li >{`Select washing option "8 (40°C)" or "9 (30°C)" for your washing requirement`}</li>
+                                <li>{`Press "Start/Pause" button to start the washing machine`}</li>
                                 <li>Once the washing is done, the machine will emit beeping sound. Then you can proceed to open the door and unload your laundry.</li>
                                 <li>Switch off the washing machine </li>
                             </ul>

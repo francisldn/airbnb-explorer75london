@@ -21,7 +21,7 @@ const Supermarket = () => {
                         <img src="https://www.about.sainsburys.co.uk/~/media/Images/S/Sainsburys/content-images/news/London%20City%20Island%20press.jpg?h=566&iar=0&w=920" alt="sainsbury supermarket" className="object-cover w-full h-full" />
                     </div>
                     <div className="px-5 mr-5">
-                        <h2 className="text-2xl font-bold py-5">Sainsbury's</h2>
+                        <h2 className="text-2xl font-bold py-5">{`Sainsbury's`}</h2>
                         <ul className="text-lg list-disc">
                             <li>Nearest tube station: Canning Town</li>
                             <li><strong>Location:</strong> </li>
