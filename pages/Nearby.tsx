@@ -11,13 +11,13 @@ const Nearby = () => {
     const [place, setPlace] = useState<string>('');
     
     return (
-        <div>
+        <div className="w-screen overflow-scroll">
             <div>
                 <SmallHeader />
             </div>
             <div className="flex flex-col mt-8">
-                <div className="my-auto mx-auto">
-                    <ul className="flex list-none justify-around gap-8">
+                <div className="my-auto lg:mx-auto overflow-scroll w-screen">
+                    <ul className="flex list-none lg:justify-around gap-8">
                         <li className="facility" onClick={() => setPlace('Supermarket')}>Supermarket</li>
                         <li className="facility" onClick={() => setPlace('PubandRestaurants')}>Pubs & Restaurants</li>
                         <li className="facility" onClick={() => setPlace('Cafes')}>Cafes</li>

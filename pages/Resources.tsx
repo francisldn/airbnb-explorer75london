@@ -4,9 +4,9 @@ const Resources = () => {
     return (
         <div>
             <SmallHeader />
-            <div className="mt-10 mx-32">
+            <div className="mt-10 mx-8 lg:mx-32">
                 <h1 className="text-start mb-8 text-5xl">Useful Resources</h1>
-                <ul className="list-disc leading-10 text-lg">
+                <ul className="list-disc leading-10 text-lg mx-5">
                     <li><a target="_blank" href="https://www.timeout.com/london" rel="noreferrer" className="text-underline">Timeout London</a></li>
                     <li><a target="_blank" href="https://www.visitlondon.com/" rel="noreferrer" className="text-underline">Visit London</a></li>
                     <li><a target="_blank" href="https://secretldn.com/" rel="noreferrer" className="text-underline">Secret London</a></li>

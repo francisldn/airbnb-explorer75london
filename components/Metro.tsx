@@ -2,8 +2,8 @@ const Metro = () => {
     return (
         <div className="flex flex-col mx-8 my-14">
             <h1 className="mx-auto mb-16 text-5xl">Metro/Trains</h1>
-            <div className="flex">
-                <div className="w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
+            <div className="flex mx-auto">
+                <div className="hidden lg:block w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
                     <img src="https://images.pexels.com/photos/10323524/pexels-photo-10323524.jpeg?auto=compress&cs=tinysrgb&w=600" alt="metro" className="object-cover w-full h-full" />
                 </div>
                 <div>

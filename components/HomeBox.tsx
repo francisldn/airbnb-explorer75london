@@ -5,7 +5,7 @@ interface HomeBoxProp {
 
 const HomeBox = ({title, imageUrl}:HomeBoxProp) => {
     return (
-        <div className = "flex flex-col rounded-xl bg-slate-300 w-30 border-slate-400 overflow-hidden hover:scale-110 cursor-pointer transition-all">
+        <div className = "my-6 rounded-xl bg-slate-300 border-slate-400 overflow-hidden hover:scale-110 cursor-pointer transition-all">
             <div className="w-full h-[308px]">
                 <img src={imageUrl} alt="" className="object-cover w-full h-full"/>
             </div>

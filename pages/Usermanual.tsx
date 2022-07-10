@@ -17,8 +17,8 @@ const Usermanual = () => {
                 <SmallHeader />
             </div>
             <div className="flex flex-col mt-8">
-                <div className="my-auto mx-auto">
-                    <ul className="flex list-none justify-around gap-8">
+                <div className="my-auto lg:mx-auto overflow-scroll w-screen">
+                    <ul className="flex list-none lg:justify-around gap-3 lg:gap-8">
                         <li className="facility" onClick={() => setFacility('Wifi')}>Wifi</li>
                         <li className="facility" onClick={() => setFacility('WashingMachine')}>Washing Machine</li>
                         <li className="facility" onClick={() => setFacility('CoffeeMachine')}>Coffee Machine</li>

@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import Link from 'next/link';
 import Header from '../components/Header';
 import HomeBox from '../components/HomeBox';
@@ -14,9 +13,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="h-[1000px]">
+      <main>
         <Header/>
-        <div className="grid grid-cols-3 mx-[10%] py-[5%] mb-[10%] gap-12 max-w-screen">
+        <div className="grid grid-cols-1 md:grid-cols-3 mx-auto my-5 mb-[10%] lg:gap-12 w-screen md:max-w-screen">
           
           <Link href="/Nearby">
             <a><HomeBox title="What's Nearby" imageUrl="nearby.jpg"/></a>

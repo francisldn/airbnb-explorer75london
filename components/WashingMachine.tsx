@@ -1,13 +1,13 @@
 const WashingMachine = () => {
     return (
-        <div className="flex flex-col mx-20 my-14">
-            <h1 className="mx-auto mb-16 text-5xl">Washing Machine</h1>
-            <div className="flex">
-                <div className="w-[600px] rounded-xl overflow-hidden mx-8">
+        <div className="flex flex-col mx-auto lg:mx-20 my-14 w-screen">
+            <h1 className="mx-8 mb-8 lg:mb-16 text-5xl">Washing Machine</h1>
+            <div className="flex flex-col lg:flex-row">
+            <div className="w-[330px] lg:w-[600px] rounded-xl overflow-hidden mx-auto lg:mx-8">
                     <img src="washingmachine.png" alt="washing machine" className="object-cover w-full h-full" />
                 </div>
-                <div className="px-10 mr-20">
-                    <ul className="text-lg list-disc">
+                <div className="mx-7 mt-5 lg:mt-0 lg:px-10 lg:mr-20">
+                    <ul className="flex flex-col gap-5 list-disc text-lg leading-8">
                         <li><strong>Location:</strong> Washing machine is located in the kitchen, on the left cupboard below the kitchen sink</li>
                         <li><strong>How to use:</strong>
                             <ul className="ml-5 list-disc leading-8">

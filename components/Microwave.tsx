@@ -1,14 +1,14 @@
 const Microwave = () => {
 
     return (
-        <div className="flex flex-col mx-20 my-14">
+        <div className="flex flex-col mx-auto lg:mx-20 my-14 w-screen">
             <h1 className="mx-auto mb-16 text-5xl">Microwave</h1>
-            <div className="flex">
-                <div className="w-[600px] rounded-xl overflow-hidden mx-8">
+            <div className="flex flex-col lg:flex-row">
+                <div className="w-[330px] lg:w-[600px] rounded-xl overflow-hidden mx-auto lg:mx-8">
                     <img src="microwave.png" alt="microwave" className="object-cover w-full h-full" />
                 </div>
-                <div className="px-10 mr-20">
-                   <ul className="leading-8 list-disc">
+                <div className="mx-7 mt-5 lg:mt-0 lg:px-10 lg:mr-20">
+                    <ul className="flex flex-col gap-5 list-disc text-lg leading-8">
                         <li><b>Location:</b> The microwave is located in the kitchen on the right corner of the cooking stove.</li>
                         <li><b>How to use:</b></li>
                         <ul className="list-disc ml-5">

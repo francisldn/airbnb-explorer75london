@@ -2,9 +2,9 @@ const Gym = () => {
     return (
         <div className="flex flex-col mx-8 my-14">
             <h1 className="mx-auto mb-16 text-5xl">Cafes</h1>
-            <div className="grid grid-cols-2 gap-8">
-                <div className="flex">
-                    <div className="w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div className="flex mx-auto">
+                    <div className="hidden lg:block w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
                         <img src="https://lh5.googleusercontent.com/p/AF1QipO4W3bMoCBjQrnQ2frbWvlCn3GRkpzFvBYwqHZ2=w408-h544-k-no" alt="Pure Gym" className="object-cover w-full h-full" />
                     </div>
                     <div className="px-5 mr-5">
@@ -16,8 +16,8 @@ const Gym = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="flex">
-                    <div className="w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
+                <div className="flex mx-auto">
+                    <div className="hidden lg:block w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
                         <img src="https://lh5.googleusercontent.com/p/AF1QipMUDhTCjXNLcj9qK7CK0eFsuRt89jLgHQ4rsGWu=w408-h272-k-no" alt="Barry's Gym" className="object-cover w-full h-full" />
                     </div>
                     <div className="px-5 mr-5">
@@ -29,8 +29,8 @@ const Gym = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="flex">
-                    <div className="w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
+                <div className="flex mx-auto">
+                    <div className="hidden lg:block w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
                         <img src="https://lh5.googleusercontent.com/p/AF1QipMOVvbdVc0BlE9imYi0uaiGYLpKicp0Q3rtVoDN=w408-h272-k-no" alt="Third Space" className="object-cover w-full h-full" />
                     </div>
                     <div className="px-5 mr-5">
@@ -42,8 +42,8 @@ const Gym = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="flex">
-                    <div className="w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
+                <div className="flex mx-auto">
+                    <div className="hidden lg:block w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
                         <img src="https://lh5.googleusercontent.com/p/AF1QipOqX5mxd2PsZobe07MYmVpXk0z4zLOoUcpwy0IG=w427-h240-k-no" alt="Virgin Active" className="object-cover w-full h-full" />
                     </div>
                     <div className="px-5 mr-5">

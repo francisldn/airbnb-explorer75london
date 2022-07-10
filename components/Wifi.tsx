@@ -1,12 +1,12 @@
 const Wifi = () => {
     return (
-        <div className="flex flex-col mx-20 my-14">
-            <h1 className="mx-auto mb-16 text-5xl">Wifi</h1>
-            <div className="flex">
-                <div className="w-[600px] rounded-xl overflow-hidden mx-8">
+        <div className="flex flex-col mx-auto lg:mx-20 my-14 w-screen">
+            <h1 className="mx-auto mb-8 lg:mb-16 text-5xl">Wifi</h1>
+            <div className="flex flex-col lg:flex-row">
+                <div className="w-[330px] lg:w-[600px] rounded-xl overflow-hidden mx-auto lg:mx-8">
                     <img src="wifi.jpg" alt="wifi" className="object-cover w-full h-full" />
                 </div>
-                <div className="px-10 mr-20">
+                <div className="mx-7 mt-5 lg:mt-0 lg:px-10 lg:mr-20">
                     <ul className="flex flex-col gap-5 list-disc text-lg leading-8">
                         <li><strong>Location:</strong> Wifi router is located on the side of the entrance hallway, beside the bathroom door</li>
                         <li>Wifi password can be found on the wifi router, as shown in the picture</li>

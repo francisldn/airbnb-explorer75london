@@ -2,8 +2,8 @@ const Cable = () => {
     return (
         <div className="flex flex-col mx-8 my-14">
             <h1 className="mx-auto mb-16 text-5xl">Cable Car</h1>
-            <div className="flex">
-                    <div className="w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
+            <div className="flex mx-auto">
+                    <div className="hidden lg:block w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
                         <img src="https://cdn.londonandpartners.com/-/media/images/london/visit/things-to-do/sightseeing/25549367-emirates-airline-cable-car-640x360.jpg?mw=640&hash=DD21E18B7E88C31F3EFCE31D7DCB6D15E01A695D" alt="london cable car" className="object-cover w-full h-full" />
                     </div>
                     <div className="px-5 mr-5">

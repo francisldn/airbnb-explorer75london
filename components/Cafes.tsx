@@ -2,9 +2,9 @@ const Cafes = () => {
     return (
         <div className="flex flex-col mx-8 my-14">
             <h1 className="mx-auto mb-16 text-5xl">Cafes</h1>
-            <div className="grid grid-cols-2 gap-8">
-                <div className="flex">
-                    <div className="w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div className="flex mx-auto">
+                    <div className="hidden lg:block w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
                         <img src="olesteen.jpeg" alt="ole and steen" className="object-cover w-full h-full" />
                     </div>
                     <div className="px-5 mr-5">
@@ -16,8 +16,8 @@ const Cafes = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="flex">
-                    <div className="w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
+                <div className="flex mx-auto">
+                    <div className="hidden lg:block w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
                         <img src="gentlemen.jpeg" alt="gentlemen baristas" className="object-cover w-full h-full" />
                     </div>
                     <div className="px-5 mr-5">
@@ -29,8 +29,8 @@ const Cafes = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="flex">
-                    <div className="w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
+                <div className="flex mx-auto">
+                    <div className="hidden lg:block w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
                         <img src="https://lh5.googleusercontent.com/p/AF1QipMWUVuU-gMhvKGJ7V8WaGv8cQsCEZI7ODmUjUA=w408-h272-k-no" alt="black sheep coffee" className="object-cover w-full h-full" />
                     </div>
                     <div className="px-5 mr-5">
@@ -42,8 +42,8 @@ const Cafes = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="flex">
-                    <div className="w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
+                <div className="flex mx-auto">
+                    <div className="hidden lg:block w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
                         <img src="https://lh5.googleusercontent.com/p/AF1QipOImdJRpBw0JXSO7U_aN4wUP3JmPzSdGWN-VgaA=w408-h306-k-no" alt="cargo markethall" className="object-cover w-full h-full" />
                     </div>
                     <div className="px-5 mr-5">

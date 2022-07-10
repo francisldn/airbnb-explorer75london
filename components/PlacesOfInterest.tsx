@@ -1,10 +1,10 @@
 const PlacesOfInterest = () => {
     return (
-        <div className="flex flex-col mx-8 my-14">
-            <h1 className="mx-auto mb-16 text-5xl">Places of Interest (Nearby)</h1>
-            <div className="grid grid-cols-2 gap-8">
-                <div className="flex">
-                    <div className="w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
+        <div className="flex flex-col mx-8 my-8 lg:my-14">
+            <h1 className="mx-auto mb-8 lg:mb-16 text-5xl">Places of Interest (Nearby)</h1>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div className="flex mx-auto">
+                    <div className="hidden lg:block w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
                         <img src="https://cdn.londonandpartners.com/-/media/images/london/visit/things-to-do/sightseeing/25549367-emirates-airline-cable-car-640x360.jpg?mw=640&hash=DD21E18B7E88C31F3EFCE31D7DCB6D15E01A695D" alt="canary wharf shopping mall" className="object-cover w-full h-full" />
                     </div>
                     <div className="px-5 mr-5">
@@ -16,8 +16,8 @@ const PlacesOfInterest = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="flex">
-                    <div className="w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
+                <div className="flex mx-auto">
+                    <div className="hidden lg:block w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
                         <img src="https://lh5.googleusercontent.com/p/AF1QipPdhSIFcG1xFcr6TA8xCimSTrMk2sx2fNiLhQNp=w426-h240-k-no" alt="Stratford Westfield" className="object-cover w-full h-full" />
                     </div>
                     <div className="px-5 mr-5">
@@ -29,8 +29,8 @@ const PlacesOfInterest = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="flex">
-                    <div className="w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
+                <div className="flex mx-auto">
+                    <div className="hidden lg:block w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
                         <img src="https://lh5.googleusercontent.com/p/AF1QipNksRTZ1fYzARgPc4BdQQMUxDOa9oiqDKD4Tel0=w408-h305-k-no" alt="Stratford Westfield" className="object-cover w-full h-full" />
                     </div>
                     <div className="px-5 mr-5">
@@ -42,8 +42,8 @@ const PlacesOfInterest = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="flex">
-                    <div className="w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
+                <div className="flex mx-auto">
+                    <div className="hidden lg:block w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
                         <img src="https://lh5.googleusercontent.com/p/AF1QipPIws_pmu_1jWV2Z-NQf_2WI4lO4NYpZqo2lUS-=w408-h306-k-no" alt="Stratford Westfield" className="object-cover w-full h-full" />
                     </div>
                     <div className="px-5 mr-5">

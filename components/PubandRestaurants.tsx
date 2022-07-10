@@ -2,9 +2,9 @@ const PubandRestaurants = () => {
     return (
         <div className="flex flex-col mx-8 my-14">
             <h1 className="mx-auto mb-16 text-5xl">Pubs and Restaurants</h1>
-            <div className="grid grid-cols-2 gap-8">
-                <div className="flex">
-                    <div className="w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div className="flex mx-auto">
+                    <div className="hidden lg:block w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
                         <img src="https://lh5.googleusercontent.com/p/AF1QipNfIog0ehr8ZzqoEN2kblVtui9Ow2W3rjfkri94=w408-h272-k-no" alt="The Gun" className="object-cover w-full h-full" />
                     </div>
                     <div className="px-5 mr-5">
@@ -16,8 +16,8 @@ const PubandRestaurants = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="flex">
-                    <div className="w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
+                <div className="flex mx-auto">
+                    <div className="hidden lg:block w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
                         <img src="https://lh5.googleusercontent.com/p/AF1QipNjpy8ZmI7TAiijCW7-ori0zgxqEY_0DJVjBEh4=w408-h271-k-no" alt="the ledger building" className="object-cover w-full h-full" />
                     </div>
                     <div className="px-5 mr-5">
@@ -29,8 +29,8 @@ const PubandRestaurants = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="flex">
-                    <div className="w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
+                <div className="flex mx-auto">
+                    <div className="hidden lg:block w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
                         <img src="https://lh5.googleusercontent.com/p/AF1QipOzlF1xmoFJxm0Op3joF5Z2rsmFNrwInqzHkXkT=w426-h240-k-no" alt="the oiler bar" className="object-cover w-full h-full" />
                     </div>
                     <div className="px-5 mr-5">
@@ -42,8 +42,8 @@ const PubandRestaurants = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="flex">
-                    <div className="w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
+                <div className="flex mx-auto">
+                    <div className="hidden lg:block w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
                         <img src="https://lh5.googleusercontent.com/p/AF1QipPhkfg_5Ec3Fo_SS5Bn9jdhuuM15fo0xpSkTQlt=w408-h408-k-no" alt="sports bar and grill" className="object-cover w-full h-full" />
                     </div>
                     <div className="px-5 mr-5">

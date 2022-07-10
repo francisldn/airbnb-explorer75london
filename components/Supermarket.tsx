@@ -1,10 +1,10 @@
 const Supermarket = () => {
     return (
-        <div className="flex flex-col mx-8 my-14">
+        <div className="flex flex-col lg:mx-8 my-14">
             <h1 className="mx-auto mb-16 text-5xl">Supermarkets</h1>
-            <div className="grid grid-cols-2 gap-8">
-                <div className="flex">
-                    <div className="w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div className="flex mx-auto">
+                    <div className="hidden lg:block w-[200px] lg:w-[400px] h-[350px] rounded-xl overflow-hidden lg:mx-8">
                         <img src="nisa.jpeg" alt="nisa supermarket" className="object-cover w-full h-full" />
                     </div>
                     <div className="px-5 mr-5">
@@ -16,8 +16,8 @@ const Supermarket = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="flex">
-                    <div className="w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
+                <div className="flex mx-auto">
+                    <div className="hidden lg:block w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
                         <img src="https://www.about.sainsburys.co.uk/~/media/Images/S/Sainsburys/content-images/news/London%20City%20Island%20press.jpg?h=566&iar=0&w=920" alt="sainsbury supermarket" className="object-cover w-full h-full" />
                     </div>
                     <div className="px-5 mr-5">
@@ -29,8 +29,8 @@ const Supermarket = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="flex">
-                    <div className="w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
+                <div className="flex mx-auto">
+                    <div className="hidden lg:block w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
                         <img src="https://www.allinlondon.co.uk/images/venues/images_all/12160171.jpg" alt="tesco supermarket" className="object-cover w-full h-full" />
                     </div>
                     <div className="px-5 mr-5">
@@ -42,8 +42,8 @@ const Supermarket = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="flex">
-                    <div className="w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
+                <div className="flex mx-auto">
+                    <div className="hidden lg:block w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
                         <img src="https://i2-prod.mylondon.news/incoming/article23096849.ece/ALTERNATES/s810/0_IMG_8993.jpg" alt="waitrose supermarket" className="object-cover w-full h-full" />
                     </div>
                     <div className="px-5 mr-5">

@@ -14,8 +14,8 @@ const Transport = () => {
                 <SmallHeader />
             </div>
             <div className="flex flex-col mt-8">
-                <div className="my-auto mx-auto">
-                    <ul className="flex list-none justify-around gap-8">
+                <div className="my-auto lg:mx-auto overflow-scroll w-screen">
+                    <ul className="flex list-none lg:justify-around gap-8">
                         <li className="facility" onClick={() => setTransport('Metro')}>Metro or Trains</li>
                         <li className="facility" onClick={() => setTransport('Buses')}>Buses</li>
                         <li className="facility" onClick={() => setTransport('Plane')}>Plane</li>
