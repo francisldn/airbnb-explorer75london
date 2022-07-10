@@ -14,7 +14,7 @@ const CoffeeMachine = () => {
                                 <li>Plug the switch into a power socket and switch on the coffee machine.</li>
                                 <li>Fill the water container located behind machine. Please just fill in enough for your coffee consumption.</li>
                                 <li>Open the coffee machine cover - as shown in the picture, and load the coffee pod. You can find some coffee pods in the cupboard above the microwave.</li>
-                                <li>Close the coffee machine cover, put your cup at the output area, and then press the "start" button at the top of the coffee machine. The machine will start running.</li>
+                                <li>{`Close the coffee machine cover, put your cup at the output area, and then press the "start" button at the top of the coffee machine. The machine will start running.`}</li>
                                 <li>Once the coffee is made, open the coffee machine cover and the coffee pod will be disposed.</li>
                                 <li>Remove any excess water from the water container</li>
                                 <li>Switch off the coffee machine.</li>

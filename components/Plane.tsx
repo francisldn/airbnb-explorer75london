@@ -11,7 +11,7 @@ const Plane = () => {
                         <ul className="text-lg list-disc">
                             <li>Nearest tube station: London City Airport</li>
                             <li><strong>Location:</strong> </li>
-                            <li className="mt-3 list-none"><iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d4405.757235554496!2d0.04575133389049217!3d51.505051262195614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e3!4m0!4m5!1s0x47d8a8880ebb3687%3A0x774e8a0a64b1a4b!2sLondon%20City%20Airport%20(LCY)%2C%20Hartmann%20Rd%2C%20London%20E16%202PX!3m2!1d51.504843699999995!2d0.049518!5e0!3m2!1sen!2suk!4v1657456172294!5m2!1sen!2suk" width="300" height="200" className="border-0" allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li>
+                            <li className="mt-3 list-none"><iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d4405.757235554496!2d0.04575133389049217!3d51.505051262195614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e3!4m0!4m5!1s0x47d8a8880ebb3687%3A0x774e8a0a64b1a4b!2sLondon%20City%20Airport%20(LCY)%2C%20Hartmann%20Rd%2C%20London%20E16%202PX!3m2!1d51.504843699999995!2d0.049518!5e0!3m2!1sen!2suk!4v1657456172294!5m2!1sen!2suk" width="300" height="200" className="border-0" loading="lazy"></iframe></li>
                         </ul>
                     </div>
             </div>

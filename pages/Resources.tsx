@@ -5,7 +5,7 @@ const Resources = () => {
         <div>
             <SmallHeader />
             <div className="mt-10 mx-32">
-                <h1 className="text-center mb-8 text-5xl">Useful Resources</h1>
+                <h1 className="text-start mb-8 text-5xl">Useful Resources</h1>
                 <ul className="list-disc leading-10 text-lg">
                     <li><a target="_blank" href="https://www.timeout.com/london" rel="noreferrer" className="text-underline">Timeout London</a></li>
                     <li><a target="_blank" href="https://www.visitlondon.com/" rel="noreferrer" className="text-underline">Visit London</a></li>

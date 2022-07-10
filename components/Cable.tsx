@@ -10,8 +10,8 @@ const Cable = () => {
                         <h2 className="text-2xl font-bold py-5">London Cable Car</h2>
                         <ul className="text-lg list-disc">
                             <li>Nearest tube station: Royal Victoria</li>
-                            <li><strong>Location:</strong> </li>
-                            <li className="mt-3 list-none"><iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d1403.3082509828657!2d0.017442663007853715!3d51.50828446228537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e3!4m0!4m5!1s0x47d8a80c3784788f%3A0x3ed1b8236589ff17!2sEmirates%20Royal%20Docks%2C%2027%20Western%20Gateway%2C%20London%20E16%201FA!3m2!1d51.5077139!2d0.0179906!5e0!3m2!1sen!2suk!4v1657452891620!5m2!1sen!2suk" width="300" height="200" className="border-0" allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li>
+                            <li><b>Location:</b> </li>
+                            <li className="mt-3 list-none"><iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d19866.39914265282!2d-0.01702832089842882!3d51.5077139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e3!4m0!4m5!1s0x47d8a80c3784788f%3A0x3ed1b8236589ff17!2sEmirates%20Royal%20Docks%2C%2027%20Western%20Gateway%2C%20London%20E16%201FA!3m2!1d51.5077139!2d0.0179906!5e0!3m2!1sen!2suk!4v1657460734206!5m2!1sen!2suk" width="300" height="200" className="border-0" loading="lazy"></iframe></li>
                         </ul>
                     </div>
             </div>
