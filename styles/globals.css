@@ -24,7 +24,7 @@ a {
 }
 
 .background-image {
-  background: rgba(0,0,0,0.5) url("../public/herolondon.webp") no-repeat center;
+  background: rgba(0,0,0,0.5) url("/herolondon.webp") no-repeat center;
   background-blend-mode: darken;
   min-height: 32rem;
 }
