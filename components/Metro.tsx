@@ -11,8 +11,8 @@ const Metro = () => {
                         <li>Metro lines available: </li>
                         <ul className="ml-5 list-disc">
                             <li><b>DLR:</b> Nearest station - East India</li>
-                            <li><b>Jubilee Line:</b> Nearest Station: Canning Town</li>
-                            <li><b>Elizabeth Line:</b> Nearest Station: Canary Wharf</li>
+                            <li><b>Jubilee Line:</b> Nearest Station - Canning Town</li>
+                            <li><b>Elizabeth Line:</b> Nearest Station - Canary Wharf</li>
                         </ul>
                     </ul>
                 </div>

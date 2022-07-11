@@ -7,7 +7,7 @@ const Plane = () => {
                         <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/00B3/production/_104897100_entrance.jpg" alt="London city airport" className="object-cover w-full h-full" />
                     </div>
                     <div className="px-5 mr-5">
-                        <h2 className="text-2xl font-bold py-5">London Cable Car</h2>
+                        <h2 className="text-2xl font-bold py-5">London City Airport</h2>
                         <ul className="text-lg list-disc">
                             <li>Nearest tube station: London City Airport</li>
                             <li><strong>Location:</strong> </li>
