@@ -18,7 +18,7 @@ const Usermanual = () => {
             </div>
             <div className="flex flex-col mt-8">
                 <div className="my-auto lg:mx-auto overflow-scroll w-screen">
-                    <ul className="flex list-none lg:justify-around gap-3 lg:gap-8">
+                    <ul className="flex list-none lg:justify-around lg:gap-8">
                         <li className="facility" onClick={() => setFacility('Wifi')}>Wifi</li>
                         <li className="facility" onClick={() => setFacility('WashingMachine')}>Washing Machine</li>
                         <li className="facility" onClick={() => setFacility('CoffeeMachine')}>Coffee Machine</li>

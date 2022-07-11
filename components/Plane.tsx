@@ -2,7 +2,7 @@ const Plane = () => {
     return (
         <div className="flex flex-col mx-8 my-14">
             <h1 className="mx-auto mb-16 text-5xl">Plane</h1>
-            <div className="flex">
+            <div className="flex mx-auto">
                     <div className="hidden lg:block w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
                         <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/00B3/production/_104897100_entrance.jpg" alt="London city airport" className="object-cover w-full h-full" />
                     </div>
