@@ -14,7 +14,7 @@ const About = () => {
                             Hi 👋, I'm Francis here from Singapore. Originally trained as a finance professional, I am currently a web developer and enjoy working from anywhere.
                         </li>
                         <li>
-                            I hope you enjoy your stay in London 💂 and at my humble flat 🏢 at 75 Explorers Court.
+                            I hope you enjoy your stay in London at my humble flat 🏢 at 75 Explorers Court.
                         </li>
                         <li>
                             It would be hugely appreciated if you could leave me a 5-star ⭐⭐⭐⭐⭐ review on Airbnb if you have enjoyed your stay.
