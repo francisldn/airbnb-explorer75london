@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 const Header = () => {
     return (
-        <nav className="w-screen lg:max-w-screen background-image"> 
+        <nav className="w-screen lg:max-w-screen background-image border-box"> 
             <div className="flex justify-around pt-8">
                 <div>
                     <h1 className="text-3xl md:text-4xl cursor-pointer text-[white]">LondonExplorer75</h1>
@@ -30,8 +30,9 @@ const Header = () => {
                 </div>
                 
             </div>
-            <div className="py-24">
+            <div className="flex flex-col py-24 border-box">
                 <h1 className="text-5xl md:text-7xl text-[white] text-center">Welcome to Explorer75</h1>
+                <div className="lg:hidden bg-slate-400 w-fit mx-auto my-5 p-2 rounded-md border-gray-300 border-2"><h3><Link href="/About"><a> About Me</a></Link></h3></div>
             </div>
         </nav>
     );

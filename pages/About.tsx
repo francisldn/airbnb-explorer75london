@@ -4,11 +4,11 @@ const About = () => {
     return (
         <div>
             <SmallHeader />
-            <div className="flex mx-8 my-14 gap-8">
-                <div className="w-[300px] rounded-xl overflow-hidden mx-8 rounded-full">
+            <div className="flex lg:mx-8 mx-5 lg:my-14 my-5 lg:gap-8 flex-col lg:flex-row">
+                <div className="w-[300px] overflow-hidden mx-8 rounded-full">
                     <img src="francis.jpeg" alt="francis image" className="object-cover w-full h-full"/>
                 </div>
-                <div className="flex items-center leading-10 text-xl">
+                <div className="flex items-center leading-10 text-xl my-5 lg:my-0">
                     <ul>
                         <li>
                             Hi 👋, I'm Francis here from Singapore. Originally trained as a finance professional, I am currently a web developer and enjoy working from anywhere.
@@ -25,7 +25,7 @@ const About = () => {
                     </ul>
 
                 </div>
-                
+                s
             </div>
         </div>
     );
