@@ -20,7 +20,7 @@ const About = () => {
                             It would be hugely appreciated if you could leave me a 5-star ⭐⭐⭐⭐⭐ review on Airbnb if you have enjoyed your stay.
                         </li>
                         <li>
-                            Feel free to reach out via Airbnb if you have any questions about the flat or London travel in general.
+                            Feel free to reach out to me via Airbnb if you have any questions about the flat or London travel in general.
                         </li>
                     </ul>
 
