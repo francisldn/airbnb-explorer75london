@@ -11,6 +11,7 @@ body {
   margin: 0;
   font-family: 'Lora', serif;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 * {
