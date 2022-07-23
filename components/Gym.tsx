@@ -1,7 +1,7 @@
 const Gym = () => {
     return (
         <div className="flex flex-col mx-8 my-14">
-            <h1 className="mx-auto mb-16 text-5xl">Cafes</h1>
+            <h1 className="mx-auto mb-16 text-5xl">Gym</h1>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                 <div className="flex mx-auto">
                     <div className="hidden lg:block w-[400px] h-[350px] rounded-xl overflow-hidden mx-8">
