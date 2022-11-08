@@ -12,7 +12,7 @@ const Wifi = () => {
                         <li>Wifi password can be found on the wifi router, as shown in the picture</li>
                         <li><strong>How to connect:</strong>
                             <ul className="ml-5 list-disc pt-2">
-                                <li>Easiest way: Scan this QR code with your phone camera to connect to the wifi. You don't need to enter password this way.</li>
+                                <li>{`Easiest way: Scan this QR code with your phone camera to connect to the wifi. You don't need to enter password this way.`}</li>
                                 <div className="w-[200px] ml-5">
                                     <img src="qrcode.png" alt="wifi qr-code" className="object-contain w-full h-full" />
                                 </div>
