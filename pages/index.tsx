@@ -16,26 +16,25 @@ const Home: NextPage = () => {
       <main>
         <Header/>
         <div className="grid grid-cols-1 md:grid-cols-3 mx-auto my-5 mb-[10%] lg:gap-12 w-screen md:max-w-screen">
-          
           <Link href="/Nearby">
             <a><HomeBox title="What's Nearby" imageUrl="nearby.jpg"/></a>
           </Link>
+
+          <Link href="/CheckIn">
+              <a><HomeBox title="Check-In Guide" imageUrl="contacts.jpg"/></a>
+            </Link>
           
           <Link href="/Eatdrinks">
             <a><HomeBox title="Food & Drinks" imageUrl="londoneat.jpg"/></a>
           </Link>
             
-            <Link href="/Transport">
-              <a><HomeBox title="Getting Around" imageUrl="transport.jpg"/></a>
-            </Link>
+          <Link href="/Transport">
+            <a><HomeBox title="Getting Around" imageUrl="transport.jpg"/></a>
+          </Link>
            
            <Link href="/Usermanual">
             <a><HomeBox title="User Manual" imageUrl="usermanual.jpg"/></a>
            </Link>
-            
-            <Link href="/Resources">
-              <a><HomeBox title="Useful Resources" imageUrl="contacts.jpg"/></a>
-            </Link>
             
             <Link href="/PlacesInterest">
               <a><HomeBox title="Places of Interest" imageUrl="traveltips.jpg"/></a>

@@ -18,13 +18,13 @@ const SmallHeader = () => {
                         <Link href="/About">About Me</Link>    
                     </li>
                     <li className="menu-navigate">
+                        <Link href="/CheckIn">Check-In Guide</Link>
+                    </li>
+                    <li className="menu-navigate">
                         <Link href="/Nearby">{`What's Nearby`}</Link> 
                     </li>
                     <li className="menu-navigate">
                     <Link href="Transport">Getting Around</Link>
-                    </li>
-                    <li className="menu-navigate">
-                    <Link href="Resources">Useful Resources</Link>
                     </li>
                     <li className="menu-navigate">
                         <Link href="/Usermanual">User Manual</Link>
