@@ -14,7 +14,7 @@ const step3 = (<ul className="list-disc pl-4">
                 <li>Walk to the <b>Explorers Court</b> entrance and you will see the building door.</li>
             </ul>)
 const step4 = (<ul className="list-disc pl-4">
-                <li>Press <b>75</b> and <b>call</b> to get the host to open the door. Repeat this if the door is not open.</li>
+                <li>Press <b>{`"75"`}</b> and <b>{`"call"`}</b> to get the host to open the door. Repeat this if the door is not open.</li>
                 <li>Once you are in, Flat 75 is located on the <b>4th floor</b>.</li>
             </ul>)
 
